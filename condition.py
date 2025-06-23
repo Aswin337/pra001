@@ -29,3 +29,12 @@ if mark>=70 and attendance>=90:
     print("Allowed to exam")
 else :
     print("Not Allowed to exam")
+
+#Food ordering discount with (and,or)
+order_amount=1000
+days="wed"
+membership="yes"
+if(order_amount>=1000 and days in ["sat","sun"]) or( membership=="yes") :
+    print("20% Discount")
+else :
+    print("no discount")
