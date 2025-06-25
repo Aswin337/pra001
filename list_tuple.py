@@ -42,6 +42,12 @@ for each in lst:
     print(f"type : {type(each)} and element : {each}")
 
 #enumerate-give index for each element in list
-#fav_food=["parrota","chappati","dosa","idiyappam","aappam"]
+fav_food=["parrota","chappati","dosa","idiyappam","aappam"]
 for i,food in enumerate(fav_food):
     print(f"index {i} :{food}")
+
+
+#tuple :
+cab=("uber","Villapuram","Airport",100.0)
+print(cab.count("uber"))
+print(cab.index("uber"))
